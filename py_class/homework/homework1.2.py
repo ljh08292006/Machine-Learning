@@ -5,9 +5,9 @@ from sklearn.metrics import PrecisionRecallDisplay, RocCurveDisplay
 
 # 1. 准备数据，和手动版本完全一致
 # 真实标签 Y_true
-y_true = np.array([1, 0, 0, 1, 0, 0, 1, 1, 0, 0])
+y_true = np.array([1, 1, 0, 1, 0, 0, 1, 1, 0, 0])
 # 预测概率 Y_score
-y_score = np.array([0.90, 0.40, 0.20, 0.60, 0.50, 0.40, 0.70, 0.40, 0.65, 0.35])
+y_score = np.array([0.90, 0.42, 0.20, 0.60, 0.50, 0.40, 0.70, 0.40, 0.65, 0.35])
 
 # 解决中文显示问题
 plt.rcParams['font.sans-serif'] = ['SimHei']
